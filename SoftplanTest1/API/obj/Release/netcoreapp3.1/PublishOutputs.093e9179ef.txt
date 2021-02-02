@@ -1,0 +1,11 @@
+C:\Users\Vinicius Barbosa\source\repos\SoftPlan\SoftplanTest1\publish\API.exe
+C:\Users\Vinicius Barbosa\source\repos\SoftPlan\SoftplanTest1\publish\appsettings.Development.json
+C:\Users\Vinicius Barbosa\source\repos\SoftPlan\SoftplanTest1\publish\appsettings.json
+C:\Users\Vinicius Barbosa\source\repos\SoftPlan\SoftplanTest1\publish\API.dll
+C:\Users\Vinicius Barbosa\source\repos\SoftPlan\SoftplanTest1\publish\API.deps.json
+C:\Users\Vinicius Barbosa\source\repos\SoftPlan\SoftplanTest1\publish\API.runtimeconfig.json
+C:\Users\Vinicius Barbosa\source\repos\SoftPlan\SoftplanTest1\publish\API.pdb
+C:\Users\Vinicius Barbosa\source\repos\SoftPlan\SoftplanTest1\publish\Microsoft.OpenApi.dll
+C:\Users\Vinicius Barbosa\source\repos\SoftPlan\SoftplanTest1\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Vinicius Barbosa\source\repos\SoftPlan\SoftplanTest1\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Vinicius Barbosa\source\repos\SoftPlan\SoftplanTest1\publish\Swashbuckle.AspNetCore.SwaggerUI.dll

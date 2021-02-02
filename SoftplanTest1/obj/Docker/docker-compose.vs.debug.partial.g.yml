@@ -1,0 +1,57 @@
+version: '3.4'
+
+services:
+  api:
+    image: api:dev
+    container_name: API
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "API"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_api$
+    volumes:
+      - C:\Users\Vinicius Barbosa\source\repos\SoftPlan\SoftplanTest1\API:/app
+      - C:\Users\Vinicius Barbosa\source\repos\SoftPlan\SoftplanTest1:/src
+      - C:\Users\Vinicius Barbosa\vsdbg\vs2017u5:/remote_debugger:rw
+#$nuget_volume_mapping_api$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_api$ \"/src/../../SoftplanTest/API/bin/Debug/netcoreapp3.1/API.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true
+  softplantest:
+    image: softplantest:dev
+    container_name: SoftplanTest
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "SoftplanTest"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_softplantest$
+    volumes:
+      - C:\Users\Vinicius Barbosa\source\repos\SoftPlan\SoftplanTest1\SoftplanTest:/app
+      - C:\Users\Vinicius Barbosa\source\repos\SoftPlan\SoftplanTest1:/src
+      - C:\Users\Vinicius Barbosa\vsdbg\vs2017u5:/remote_debugger:rw
+#$nuget_volume_mapping_softplantest$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_softplantest$ \"/src/../../SoftplanTest/SoftplanTest/bin/Debug/netcoreapp3.1/SoftplanTest.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true
