@@ -5,10 +5,10 @@ EXPOSE 3000
 
 FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
 WORKDIR /src
-COPY ["API/API.csproj", "API/"]
+COPY ["SoftPlanTest2/API/API.csproj", "API/"]
 RUN dotnet restore "API\API.csproj"
 COPY . .
-WORKDIR "/src/API"
+WORKDIR "/src/SoftPlanTest2/API"
 RUN dotnet build "API.csproj" -c Release -o /app/build
 
 FROM build AS publish

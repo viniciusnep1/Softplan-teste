@@ -6,10 +6,10 @@ ENV ASPNETCORE_URLS=http://*:5000
 
 FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
 WORKDIR /src
-COPY ["API/API.csproj", "API/"]
+COPY ["SoftPlanTest2/API/API.csproj", "API/"]
 RUN dotnet restore "API\API.csproj"
 COPY . .
-WORKDIR "/src/API"
+WORKDIR "/src/SoftPlanTest2/API"
 RUN dotnet build "API.csproj" -c Release -o /app/build
 
 FROM build AS publish
@@ -18,4 +18,4 @@ RUN dotnet publish "API.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "API.dll", "--server.urls", "http://+:80;https://+:443"]
+ENTRYPOINT ["dotnet", "API.dll"]
