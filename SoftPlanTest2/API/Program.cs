@@ -13,22 +13,14 @@ namespace API
     {
         public static void Main(string[] args)
         {
-            var host = new WebHostBuilder()
-            .UseKestrel()
-            .UseUrls("http://*:3000")
-            .UseIISIntegration()
-            .UseStartup<Startup>()
-            .Build();
-
-            host.Run();
+            CreateHostBuilder(args).Build().Run();
         }
 
-        //public static IHostBuilder CreateHostBuilder(string[] args) =>
-        //    Host.CreateDefaultBuilder(args)
-        //        .ConfigureWebHostDefaults(webBuilder =>
-        //        {
-        //            webBuilder.UseStartup<Startup>();
-        //            webBuilder.UseUrls("http://*:3000");
-        //        });
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();
+                });
     }
 }
