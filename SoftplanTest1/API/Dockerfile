@@ -2,14 +2,17 @@ FROM mcr.microsoft.com/dotnet/aspnet:3.1 AS base
 WORKDIR /app
 EXPOSE 80
 EXPOSE 5000
-ENV ASPNETCORE_URLS=http://*:5000 
+RUN curl -sL https://deb.nodesource.com/setup_10.x |  bash -
+RUN apt-get install -y nodejs
 
 FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
+RUN curl -sL https://deb.nodesource.com/setup_10.x |  bash -
+RUN apt-get install -y nodejs
 WORKDIR /src
-COPY ["SoftplanTest1/API/API.csproj", "API/"]
+COPY ["SoftPlanTest2/API/API.csproj", "API/"]
 RUN dotnet restore "API\API.csproj"
 COPY . .
-WORKDIR "/src/SoftplanTest1/API"
+WORKDIR "/src/SoftPlanTest2/API"
 RUN dotnet build "API.csproj" -c Release -o /app/build
 
 FROM build AS publish

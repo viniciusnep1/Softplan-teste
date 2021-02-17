@@ -1,16 +1,28 @@
 {
   "version": 2,
-  "dgSpecHash": "H/CD9BFu/Y9G8dolzOdUHH7AAPVMdYd8qOpgvuUiHokbMcMAUwsmmP+5wAVvPzr0grwDOW5ICtbHSq8mkX0EEA==",
+  "dgSpecHash": "eistcwzVgrfJcBHhyzU8joX7UMCqUN+XQ/i3UPly2SmMtdaEgdgS0ihRpVgZbEzwaXJxan5kJrNOMyw1l/kYNg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Vinicius Barbosa\\source\\repos\\Softplan-teste\\SoftplanTest1\\API\\API.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Vinicius Barbosa\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "C:\\Users\\Vinicius Barbosa\\.nuget\\packages\\microsoft.openapi\\1.1.4\\microsoft.openapi.1.1.4.nupkg.sha512",
-    "C:\\Users\\Vinicius Barbosa\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
-    "C:\\Users\\Vinicius Barbosa\\.nuget\\packages\\swashbuckle.aspnetcore\\5.5.0\\swashbuckle.aspnetcore.5.5.0.nupkg.sha512",
-    "C:\\Users\\Vinicius Barbosa\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.5.0\\swashbuckle.aspnetcore.swagger.5.5.0.nupkg.sha512",
-    "C:\\Users\\Vinicius Barbosa\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.5.0\\swashbuckle.aspnetcore.swaggergen.5.5.0.nupkg.sha512",
-    "C:\\Users\\Vinicius Barbosa\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.5.0\\swashbuckle.aspnetcore.swaggerui.5.5.0.nupkg.sha512"
+    "C:\\Users\\Vinicius Barbosa\\.nuget\\packages\\microsoft.aspnetcore.nodeservices\\3.1.11\\microsoft.aspnetcore.nodeservices.3.1.11.nupkg.sha512",
+    "C:\\Users\\Vinicius Barbosa\\.nuget\\packages\\microsoft.aspnetcore.spaservices\\3.1.11\\microsoft.aspnetcore.spaservices.3.1.11.nupkg.sha512",
+    "C:\\Users\\Vinicius Barbosa\\.nuget\\packages\\microsoft.aspnetcore.spaservices.extensions\\3.1.11\\microsoft.aspnetcore.spaservices.extensions.3.1.11.nupkg.sha512",
+    "C:\\Users\\Vinicius Barbosa\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.11\\microsoft.extensions.configuration.3.1.11.nupkg.sha512",
+    "C:\\Users\\Vinicius Barbosa\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.11\\microsoft.extensions.configuration.abstractions.3.1.11.nupkg.sha512",
+    "C:\\Users\\Vinicius Barbosa\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.11\\microsoft.extensions.configuration.binder.3.1.11.nupkg.sha512",
+    "C:\\Users\\Vinicius Barbosa\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.11\\microsoft.extensions.dependencyinjection.3.1.11.nupkg.sha512",
+    "C:\\Users\\Vinicius Barbosa\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.11\\microsoft.extensions.dependencyinjection.abstractions.3.1.11.nupkg.sha512",
+    "C:\\Users\\Vinicius Barbosa\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.11\\microsoft.extensions.fileproviders.abstractions.3.1.11.nupkg.sha512",
+    "C:\\Users\\Vinicius Barbosa\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.1.11\\microsoft.extensions.fileproviders.physical.3.1.11.nupkg.sha512",
+    "C:\\Users\\Vinicius Barbosa\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.1.11\\microsoft.extensions.filesystemglobbing.3.1.11.nupkg.sha512",
+    "C:\\Users\\Vinicius Barbosa\\.nuget\\packages\\microsoft.extensions.logging\\3.1.11\\microsoft.extensions.logging.3.1.11.nupkg.sha512",
+    "C:\\Users\\Vinicius Barbosa\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.11\\microsoft.extensions.logging.abstractions.3.1.11.nupkg.sha512",
+    "C:\\Users\\Vinicius Barbosa\\.nuget\\packages\\microsoft.extensions.logging.configuration\\3.1.11\\microsoft.extensions.logging.configuration.3.1.11.nupkg.sha512",
+    "C:\\Users\\Vinicius Barbosa\\.nuget\\packages\\microsoft.extensions.logging.console\\3.1.11\\microsoft.extensions.logging.console.3.1.11.nupkg.sha512",
+    "C:\\Users\\Vinicius Barbosa\\.nuget\\packages\\microsoft.extensions.options\\3.1.11\\microsoft.extensions.options.3.1.11.nupkg.sha512",
+    "C:\\Users\\Vinicius Barbosa\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\3.1.11\\microsoft.extensions.options.configurationextensions.3.1.11.nupkg.sha512",
+    "C:\\Users\\Vinicius Barbosa\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.11\\microsoft.extensions.primitives.3.1.11.nupkg.sha512",
+    "C:\\Users\\Vinicius Barbosa\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512"
   ],
   "logs": []
 }
