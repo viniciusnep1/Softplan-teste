@@ -9,10 +9,10 @@ FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
 RUN curl -sL https://deb.nodesource.com/setup_10.x |  bash -
 RUN apt-get install -y nodejs
 WORKDIR /src
-COPY ["API.csproj", "./"]
-RUN dotnet restore "API.csproj"
+COPY ["SoftPlanTest2/API/API.csproj", "API/"]
+RUN dotnet restore "API\API.csproj"
 COPY . .
-WORKDIR "/src/."
+WORKDIR "/src/SoftPlanTest2/API"
 RUN dotnet build "API.csproj" -c Release -o /app/build
 
 FROM build AS publish
