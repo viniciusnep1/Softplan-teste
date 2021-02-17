@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vxmNG6LdcizpHZAOBMP56HuaFCCfMgrNgwk2R9pI+bOrzt/7aZ6kIzDdHUjgg0fPSR91AphLCu+y0lDCmKqirA==",
+  "dgSpecHash": "AbYl8S1gLDNwvfvBM8O9AyFOJ5Wmm+I6fOYnQrm2qGZXYb1ZA7ijtmzOIrKeHeTZIHUs7eFcBWri8GdBCEEJ5A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Vinicius Barbosa\\source\\repos\\Softplan-teste\\SoftPlanTest2\\API\\API.csproj",
   "expectedPackageFiles": [
@@ -22,7 +22,6 @@
     "C:\\Users\\Vinicius Barbosa\\.nuget\\packages\\microsoft.extensions.options\\3.1.11\\microsoft.extensions.options.3.1.11.nupkg.sha512",
     "C:\\Users\\Vinicius Barbosa\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\3.1.11\\microsoft.extensions.options.configurationextensions.3.1.11.nupkg.sha512",
     "C:\\Users\\Vinicius Barbosa\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.11\\microsoft.extensions.primitives.3.1.11.nupkg.sha512",
-    "C:\\Users\\Vinicius Barbosa\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\Vinicius Barbosa\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512"
   ],
   "logs": []

@@ -10,4 +10,3 @@ services:
       dockerfile: ./Dockerfile
     ports:
       - 80
-      - 5000
