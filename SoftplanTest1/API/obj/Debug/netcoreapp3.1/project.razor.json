@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Vinicius Barbosa\\source\\repos\\Softplan-teste\\SoftPlanTest2\\API\\API.csproj",
+  "FilePath": "c:\\Users\\Vinicius Barbosa\\source\\repos\\Softplan-teste\\SoftplanTest1\\API\\API.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14447,13 +14447,13 @@
   "RootNamespace": "API",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Vinicius Barbosa\\source\\repos\\Softplan-teste\\SoftPlanTest2\\API\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
+      "FilePath": "c:\\Users\\Vinicius Barbosa\\source\\repos\\Softplan-teste\\SoftplanTest1\\API\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Vinicius Barbosa\\source\\repos\\Softplan-teste\\SoftPlanTest2\\API\\Pages\\_ViewImports.cshtml",
-      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\Vinicius Barbosa\\source\\repos\\Softplan-teste\\SoftplanTest1\\API\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
     }
   ],

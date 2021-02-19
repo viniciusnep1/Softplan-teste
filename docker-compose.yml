@@ -1,20 +1,19 @@
-version: '3.4'
+version: "3.4"
 
 services:
   api:
     image: test2
+    container_name: app
     build:
       context: .
       dockerfile: SoftPlanTest2/API/Dockerfile
     ports:
-      - 80
-      - 5000
+      - 5000:80
   api2:
     image: test1
+    container_name: app2
     build:
       context: .
       dockerfile: SoftplanTest1/API/Dockerfile
     ports:
-      - 81
-      - 3000
-      
+      - 5555:81
